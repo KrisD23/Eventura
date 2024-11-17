@@ -9,14 +9,17 @@ const Header = () => {
   return (
     <header className="w-full border-b">
       <div className="wrapper flex items-center justify-between">
-        <Link href="/" className="w-36">
-          <Image
-            src="/assets/images/logo.svg"
-            width={128}
-            height={38}
-            alt="Evently logo"
-          />
-        </Link>
+        <div className="flex items-center">
+          <Link href="/">
+            <Image
+              src="/assets/images/logo.svg"
+              width={128}
+              height={38}
+              alt="Eventura logo"
+            />
+            <span className="text-xl font-semibold ">Eventura</span>
+          </Link>
+        </div>
 
         <SignedIn>
           <nav className="md:flex-between hidden w-full max-w-xs">
