@@ -14,6 +14,7 @@ const Header = () => {
             alt="Eventura logo"
           />
         </Link>
+        <div className=""></div>
       </div>
     </header>
   );
